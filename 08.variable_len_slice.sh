@@ -9,9 +9,9 @@
 
 variable="hello tom, this is my house~"
 echo "variable's len: ${#variable}"
-echo "variable's slice: ${variable: 11:4}"
+echo "variable's slice: ${variable:11:4}"
 
-echo "variable's slice[-6:6]: ${variable: -6:6}"
+echo "variable's slice[-6:6]: ${variable: -9:2}"
 
 echo "variable's slice[#*,]: ${variable#*,}"
 echo "variable's slice[%,*]: ${variable%,*}"
